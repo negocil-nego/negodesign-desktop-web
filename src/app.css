@@ -1,5 +1,133 @@
 @import 'tailwindcss';
 
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-ThinItalic.woff2') format('woff2');
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-ExtraLight.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-ExtraLightItalic.woff2') format('woff2');
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-LightItalic.woff2') format('woff2');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-MediumItalic.woff2') format('woff2');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-SemiBoldItalic.woff2') format('woff2');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-BoldItalic.woff2') format('woff2');
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-ExtraBoldItalic.woff2') format('woff2');
+	font-weight: 800;
+	font-style: italic;
+	font-display: swap;
+}
+
 @theme {
 	--color-on-tertiary-fixed: #23005c;
 	--color-surface-container-high: #262a35;
@@ -66,19 +194,21 @@
 	--spacing-margin-desktop: 3rem;
 	--spacing-gutter: 1.25rem;
 
-	--font-body-md: 'Inter', sans-serif;
+	--font-sans: 'JetBrains Mono', monospace;
+	--font-mono: 'JetBrains Mono', monospace;
+	--font-body-md: 'JetBrains Mono', monospace;
 	--font-label-caps: 'JetBrains Mono', monospace;
-	--font-display-hero: 'Inter', sans-serif;
-	--font-headline-sm: 'Inter', sans-serif;
+	--font-display-hero: 'JetBrains Mono', monospace;
+	--font-headline-sm: 'JetBrains Mono', monospace;
 	--font-code-sm: 'JetBrains Mono', monospace;
-	--font-display-hero-mobile: 'Inter', sans-serif;
+	--font-display-hero-mobile: 'JetBrains Mono', monospace;
 	--font-code-md: 'JetBrains Mono', monospace;
-	--font-body-lg: 'Inter', sans-serif;
-	--font-headline-md: 'Inter', sans-serif;
-	--font-body-sm: 'Inter', sans-serif;
-	--font-title-md: 'Inter', sans-serif;
-	--font-headline-lg-mobile: 'Inter', sans-serif;
-	--font-headline-lg: 'Inter', sans-serif;
+	--font-body-lg: 'JetBrains Mono', monospace;
+	--font-headline-md: 'JetBrains Mono', monospace;
+	--font-body-sm: 'JetBrains Mono', monospace;
+	--font-title-md: 'JetBrains Mono', monospace;
+	--font-headline-lg-mobile: 'JetBrains Mono', monospace;
+	--font-headline-lg: 'JetBrains Mono', monospace;
 
 	--text-body-md: 14px;
 	--text-body-md--line-height: 22px;
@@ -144,6 +274,7 @@
 	body {
 		margin: 0;
 		padding: 0;
+		font-family: 'JetBrains Mono', monospace;
 	}
 	body {
 		overscroll-behavior: none;
