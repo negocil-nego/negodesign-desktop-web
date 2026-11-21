@@ -3,8 +3,7 @@
     Loader,
     Background,
     Navbar,
-    HeroSection,
-    DesktopStudioSimulator,
+    StudioShowcaseSection,
     Footer,
   } from "#lib";
 
@@ -15,13 +14,13 @@
   <title>NegoDesign</title>
 </svelte:head>
 
-<Loader accent="#4c6af5" onComplete={() => (loaded = true)} />
+<!-- <Loader accent="#4c6af5" onComplete={() => (loaded = true)} /> -->
 
-<div class={!loaded ? "h-screen overflow-hidden" : ""} inert={!loaded}>
+<!-- <div class={!loaded ? "h-screen overflow-hidden" : ""} inert={!loaded}> -->
+<div>
   <Navbar />
   <Background squareColor="#4c6af5">
-    <HeroSection />
+    <StudioShowcaseSection />
   </Background>
-  <DesktopStudioSimulator />
   <Footer />
 </div>
