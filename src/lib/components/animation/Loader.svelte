@@ -10,7 +10,7 @@
 
   export let minTime = 14;
   export let background = "#EEEAE3";
-  export let accent = "#151412";
+  export let accent = "#4c6af5";
   export let fontFamily = '"Instrument Serif", "Times New Roman", Times, serif';
   export let fontWeight: number | string = 400;
   export let fontStyle = "normal";

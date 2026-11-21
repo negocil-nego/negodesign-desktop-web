@@ -15,11 +15,11 @@
   <title>NegoDesign</title>
 </svelte:head>
 
-<Loader onComplete={() => (loaded = true)} />
+<Loader accent="#4c6af5" onComplete={() => (loaded = true)} />
 
 <div class={!loaded ? "h-screen overflow-hidden" : ""} inert={!loaded}>
   <Navbar />
-  <Background>
+  <Background squareColor="#4c6af5">
     <HeroSection />
   </Background>
   <DesktopStudioSimulator />

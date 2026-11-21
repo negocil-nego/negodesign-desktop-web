@@ -73,11 +73,11 @@
     <a
       href="#desktop-preview-section"
       title={`Baixar NegoDesign para ${activePlatform.name} (${activePlatform.meta})`}
-      class="inline-flex items-center justify-center gap-3 px-7 py-4 rounded-lg bg-secondary hover:bg-secondary-fixed text-on-secondary-fixed font-semibold text-base transition-all shadow-[0_8px_32px_rgba(76,215,246,0.28)] shrink-0"
+      class="inline-flex items-center justify-center gap-3.5 min-w-[250px] sm:min-w-[300px] px-10 py-5 rounded-md bg-[#4c6af5] hover:bg-[#5e7aff] active:scale-[0.99] text-white font-semibold text-base sm:text-lg tracking-tight transition-all shadow-[0_12px_36px_rgba(76,106,245,0.42)] hover:shadow-[0_16px_44px_rgba(76,106,245,0.55)] shrink-0"
     >
       {#if activePlatform.id === "windows"}
         <svg
-          class="w-5 h-5 shrink-0"
+          class="w-6 h-6 shrink-0"
           viewBox="0 0 24 24"
           fill="currentColor"
           aria-hidden="true"
@@ -88,7 +88,7 @@
         </svg>
       {:else if activePlatform.id === "macos"}
         <svg
-          class="w-5 h-5 shrink-0"
+          class="w-6 h-6 shrink-0"
           viewBox="0 0 24 24"
           fill="currentColor"
           aria-hidden="true"
@@ -99,7 +99,7 @@
         </svg>
       {:else}
         <svg
-          class="w-5 h-5 shrink-0"
+          class="w-6 h-6 shrink-0"
           viewBox="0 0 24 24"
           fill="currentColor"
           aria-hidden="true"

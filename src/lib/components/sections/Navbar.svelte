@@ -5,9 +5,7 @@
   ];
 </script>
 
-<header
-  class="fixed top-0 left-0 w-full z-50 shadow-[0_1px_8px_rgba(0,0,0,0.3)]"
->
+<header class="top-0 left-0 w-full z-50 shadow-[0_1px_8px_rgba(0,0,0,0.3)]">
   <div
     class="h-16 w-full mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between gap-space-lg"
   >
