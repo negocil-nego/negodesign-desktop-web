@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1919 1034" width="1919" height="1034" font-family="Inter, 'Segoe UI', Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17181c"/>
+      <stop offset="0.55" stop-color="#1a1a1f"/>
+      <stop offset="1" stop-color="#22181c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="1" r="0.6">
+      <stop offset="0" stop-color="#6b2a2a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#6b2a2a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fadeBottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1a1f" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1a1a1f" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="fadeLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1a1a1f" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#1a1a1f" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="heroClip"><rect x="450" y="116" width="1276" height="286"/></clipPath>
+    <clipPath id="cardClip"><rect x="449" y="115" width="1278" height="825" rx="4"/></clipPath>
+  </defs>
+
+  <!-- Fundo da janela -->
+  <rect width="1919" height="1034" fill="#131316"/>
+
+  <!-- Padrão decorativo de fundo (linhas tipo circuito) -->
+  <g fill="none" stroke="#1d1d22" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 22 V70 Q300 112 342 112 H380"/>
+    <path d="M380 22 V90"/>
+    <path d="M520 22 V60 Q520 90 550 90 H590"/>
+    <path d="M862 22 V78"/>
+    <path d="M790 96 H1010"/>
+    <path d="M1190 22 V96"/>
+    <path d="M1370 96 H1620"/>
+    <path d="M1460 22 H1540 Q1580 22 1590 56"/>
+    <path d="M1650 22 H1780 Q1830 22 1830 70 V96"/>
+    <path d="M1855 96 H1919"/>
+    <path d="M284 134 H395"/>
+    <path d="M300 250 Q300 205 345 205 H382 V330 Q382 372 340 372 H300"/>
+    <path d="M375 398 V455 H284"/>
+    <path d="M375 395 H449"/>
+    <path d="M256 545 H449"/>
+    <path d="M256 770 H449"/>
+    <path d="M382 485 V548 H449"/>
+    <path d="M300 840 Q340 840 340 880 V940"/>
+    <path d="M345 815 H400 Q438 815 438 850"/>
+    <path d="M380 925 V980"/>
+    <path d="M450 960 H600 Q640 960 640 995 V1034"/>
+    <path d="M1728 395 H1830"/>
+    <path d="M1760 270 Q1760 235 1800 235 H1850 Q1895 235 1895 280 V310"/>
+    <path d="M1810 300 Q1860 300 1860 345 V420 Q1860 470 1815 470 H1790 Q1750 470 1750 430 Q1750 395 1790 395"/>
+    <path d="M1728 545 H1919"/>
+    <path d="M1728 700 H1780 Q1830 700 1830 740 V760"/>
+    <path d="M1728 770 H1919"/>
+    <path d="M1850 800 H1919"/>
+    <path d="M1790 850 Q1840 850 1840 895 V940"/>
+    <path d="M1730 940 H1830"/>
+    <path d="M1580 1034 V985 Q1580 955 1615 955 H1700"/>
+    <path d="M1800 975 H1919"/>
+    <path d="M1130 962 H1330"/>
+  </g>
+
+  <!-- Barra de título -->
+  <rect width="1919" height="22" fill="#18181b"/>
+  <rect x="4" y="4" width="14" height="14" rx="2" fill="#1f6bff"/>
+  <text x="11" y="15" font-size="8" font-weight="700" fill="#fff" text-anchor="middle">N</text>
+  <text x="24" y="16" font-size="12" fill="#e4e4e7">negodesign-desktop</text>
+  <g stroke="#e4e4e7" stroke-width="1" fill="none">
+    <path d="M1799 11.5 H1809"/>
+    <rect x="1845.5" y="6.5" width="8" height="8"/>
+    <path d="M1848 4.5 H1856.5 V13"/>
+    <path d="M1890 6 L1899 15 M1899 6 L1890 15"/>
+  </g>
+
+  <!-- Barra lateral -->
+  <rect x="0" y="22" width="255" height="1012" fill="#17171a"/>
+  <rect x="255" y="22" width="1" height="1012" fill="#26262b"/>
+
+  <rect x="16" y="43" width="28" height="28" rx="6" fill="#1f6bff"/>
+  <text x="30" y="62" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">N</text>
+  <text x="54" y="54" font-size="15" font-weight="700" fill="#fafafa">NegoDesign</text>
+  <text x="54" y="72" font-size="12" fill="#8a8a93">Desktop Studio</text>
+
+  <rect x="207.500" y="39.500" width="31" height="31" rx="4" fill="#1d1d21" stroke="#2f2f35"/>
+  <g stroke="#e4e4e7" stroke-width="1.4" stroke-linecap="round">
+    <circle cx="223" cy="55" r="3" fill="#e4e4e7"/>
+    <path d="M223 48.500v2 M223 59.500v2 M216.500 55h2 M227.500 55h2 M218.400 50.400l1.400 1.400 M226.200 58.200l1.400 1.400 M227.600 50.400l-1.400 1.400 M219.800 58.200l-1.400 1.400"/>
+  </g>
+
+  <rect x="16" y="87" width="182" height="1" fill="#2a2a30"/>
+  <path d="M27 115 l3 -3 l3 3" stroke="#8a8a93" stroke-width="1.200" fill="none"/>
+  <text x="42" y="121" font-size="12" font-weight="700" letter-spacing="0.8" fill="#d4d4d8">MENU</text>
+
+  <!-- Itens do menu -->
+  <g fill="none" stroke="#a1a1aa" stroke-width="1.300" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Novo Projecto -->
+    <path d="M27 150 h6 l2 2 h5 v10 h-13 z"/>
+    <path d="M36 155 v5 M33.500 157.500 h5"/>
+    <!-- Templates -->
+    <rect x="28" y="188" width="12" height="12" rx="2"/>
+    <path d="M28 193 h5 M33 193 v7"/>
+    <!-- Galeria -->
+    <rect x="28" y="229" width="13" height="12" rx="2"/>
+    <circle cx="32.500" cy="233.500" r="1.200"/>
+    <path d="M28 239 l4 -3 l3 2 l3 -2 l3 3"/>
+  </g>
+  <text x="56" y="161" font-size="14" fill="#e4e4e7">Novo Projecto</text>
+  <text x="56" y="201" font-size="14" fill="#e4e4e7">Templates</text>
+  <text x="56" y="241" font-size="14" fill="#e4e4e7">Galeria</text>
+
+  <rect x="16" y="987" width="223" height="1" fill="#2a2a30"/>
+  <circle cx="19" cy="1007" r="2.500" fill="#22c55e"/>
+  <text x="28" y="1012" font-size="11" fill="#a1a1aa">Pronto</text>
+  <text x="239" y="1010" font-size="10" font-family="'JetBrains Mono', Consolas, monospace" fill="#8a8a93" text-anchor="end">v0.1.0</text>
+
+  <!-- Cartão principal -->
+  <rect x="449" y="115" width="1278" height="825" rx="4" fill="#1a1a1f" stroke="#2b2b31"/>
+
+  <!-- Hero -->
+  <g clip-path="url(#heroClip)">
+    <rect x="450" y="116" width="1276" height="286" fill="url(#hero)"/>
+    <rect x="450" y="116" width="1276" height="286" fill="url(#glow)"/>
+
+    <!-- monitor com código (ilustrativo) -->
+    <rect x="1010" y="116" width="215" height="95" fill="#14161b"/>
+    <rect x="1320" y="116" width="406" height="95" fill="#13151a"/>
+    <g fill="#7c8aa5" opacity="0.65">
+      <rect x="1068" y="118" width="22" height="3"/>
+      <rect x="1083" y="127" width="70" height="3"/>
+      <rect x="1083" y="134" width="78" height="3"/>
+      <rect x="1068" y="142" width="26" height="3"/>
+      <rect x="1056" y="150" width="30" height="3"/>
+      <rect x="1056" y="158" width="45" height="3"/>
+      <rect x="1056" y="176" width="62" height="3"/>
+      <rect x="1056" y="184" width="40" height="3"/>
+    </g>
+    <g fill="#c58a6a" opacity="0.7">
+      <rect x="1100" y="118" width="22" height="3"/>
+      <rect x="1100" y="142" width="14" height="3"/>
+    </g>
+    <g fill="#7c8aa5" opacity="0.55">
+      <rect x="1384" y="117" width="62" height="3"/>
+      <rect x="1384" y="125" width="86" height="3"/>
+      <rect x="1396" y="133" width="150" height="3"/>
+      <rect x="1396" y="141" width="190" height="3"/>
+      <rect x="1396" y="149" width="140" height="3"/>
+      <rect x="1396" y="157" width="170" height="3"/>
+      <rect x="1396" y="165" width="150" height="3"/>
+      <rect x="1384" y="173" width="30" height="3"/>
+      <rect x="1384" y="181" width="75" height="3"/>
+    </g>
+    <g fill="#c58a6a" opacity="0.6">
+      <rect x="1396" y="133" width="22" height="3"/>
+      <rect x="1470" y="149" width="40" height="3"/>
+    </g>
+
+    <!-- telefone inclinado (ilustrativo) -->
+    <g transform="rotate(-14 1020 260)">
+      <rect x="965" y="175" width="115" height="230" rx="14" fill="#202024" stroke="#3a3a42" stroke-width="2"/>
+      <rect x="974" y="188" width="97" height="205" rx="8" fill="#17171b"/>
+      <rect x="1000" y="195" width="45" height="4" rx="2" fill="#3a3a42"/>
+      <text x="1022" y="262" font-size="20" font-weight="800" fill="#b3342f" text-anchor="middle" letter-spacing="1">NEG</text>
+      <rect x="985" y="320" width="75" height="3" rx="1.500" fill="#3a3a42"/>
+      <rect x="985" y="330" width="55" height="3" rx="1.500" fill="#2e2e35"/>
+      <circle cx="1022" cy="357" r="8" fill="#26262c"/>
+    </g>
+
+    <!-- barra de tarefas -->
+    <g fill="#9aa0ad" opacity="0.5">
+      <rect x="880" y="182" width="6" height="6" rx="1"/>
+      <rect x="892" y="182" width="6" height="6" rx="1"/>
+      <rect x="908" y="182" width="6" height="6" rx="1"/>
+    </g>
+
+    <rect x="450" y="116" width="700" height="286" fill="url(#fadeLeft)"/>
+    <rect x="450" y="250" width="1276" height="152" fill="url(#fadeBottom)"/>
+  </g>
+
+  <!-- Badge de versão -->
+  <rect x="481" y="147" width="124" height="24" rx="3" fill="#1f6bff"/>
+  <circle cx="494" cy="159" r="3" fill="#22d3ee"/>
+  <text x="503" y="163" font-size="11" font-weight="700" fill="#fff" letter-spacing="0.3">V0.1.0 DESKTOP</text>
+  <text x="614" y="164" font-size="12" font-weight="500" fill="#e4e4e7">NegoDesign Studio</text>
+
+  <!-- Título -->
+  <text x="481" y="340" font-size="38" font-weight="800" fill="#ffffff" letter-spacing="-1.500">NegoDesign<tspan dx="14" dy="-8" font-size="25" font-weight="300" fill="#d4d4d8" letter-spacing="0">Desktop</tspan></text>
+  <text x="481" y="363" font-size="14" fill="#e4e4e7">Ecossistema de UI multiplataforma e conversão OpenAPI para Frontend</text>
+
+  <rect x="450" y="402" width="1276" height="1" fill="#2b2b31"/>
+
+  <!-- Cabeçalhos das secções -->
+  <text x="481" y="447" font-size="12" font-weight="600" letter-spacing="1" fill="#8a8a93">INÍCIO RÁPIDO</text>
+  <text x="1071" y="446" font-size="10" font-weight="600" letter-spacing="0.8" fill="#8a8a93" text-anchor="end">CRIAR OU IMPORTAR</text>
+  <rect x="481" y="459" width="591" height="1" fill="#2b2b31"/>
+
+  <text x="1104" y="447" font-size="12" font-weight="600" letter-spacing="1" fill="#8a8a93">ECOSSISTEMA SUPORTADO</text>
+  <text x="1695" y="446" font-size="10" font-weight="600" letter-spacing="0.8" fill="#8a8a93" text-anchor="end">MULTIPLATAFORMA</text>
+  <rect x="1104" y="459" width="591" height="1" fill="#2b2b31"/>
+
+  <!-- Itens de início rápido -->
+  <g>
+    <rect x="481.500" y="472.500" width="590" height="63" rx="3" fill="#1d1d22" stroke="#2b2b31"/>
+    <rect x="495" y="486" width="36" height="36" rx="4" fill="#232328" stroke="#33333a"/>
+    <g fill="none" stroke="#e4e4e7" stroke-width="1.400" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M503 499 h4 l2 2 h6 v9 h-12 z"/>
+      <path d="M513 503 v4 M511 505 h4"/>
+    </g>
+    <text x="544" y="500" font-size="14" font-weight="700" fill="#fafafa">Novo Projecto Frontend</text>
+    <text x="544" y="520" font-size="12" fill="#a1a1aa">Svelte, React, Vue ou Flutter com Tailwind CSS nativo</text>
+    <rect x="999" y="494" width="60" height="20" rx="3" fill="#2a2a30"/>
+    <text x="1029" y="508" font-size="11" font-family="'JetBrains Mono', Consolas, monospace" fill="#a1a1aa" text-anchor="middle">Frontend</text>
+  </g>
+  <g>
+    <rect x="481.500" y="546.500" width="590" height="63" rx="3" fill="#1d1d22" stroke="#2b2b31"/>
+    <rect x="495" y="560" width="36" height="36" rx="4" fill="#232328" stroke="#33333a"/>
+    <g fill="none" stroke="#e4e4e7" stroke-width="1.400" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="503" y="568" width="12" height="14" rx="2"/>
+      <path d="M506 572 h6 M506 576 h4"/>
+      <circle cx="515" cy="584" r="3.500" fill="#232328"/>
+    </g>
+    <text x="544" y="574" font-size="14" font-weight="700" fill="#fafafa">Gerar via OpenAPI</text>
+    <text x="544" y="594" font-size="12" fill="#a1a1aa">Lê Swagger/Scalar e gera interface administrativa completa</text>
+    <rect x="1006" y="568" width="53" height="20" rx="3" fill="#2a2a30"/>
+    <text x="1032.500" y="582" font-size="11" font-family="'JetBrains Mono', Consolas, monospace" fill="#a1a1aa" text-anchor="middle">OpenAPI</text>
+  </g>
+  <g>
+    <rect x="481.500" y="620.500" width="590" height="63" rx="3" fill="#1d1d22" stroke="#2b2b31"/>
+    <rect x="495" y="634" width="36" height="36" rx="4" fill="#232328" stroke="#33333a"/>
+    <g fill="none" stroke="#e4e4e7" stroke-width="1.400" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="503" y="642" width="14" height="14" rx="2"/>
+      <path d="M503 648 h6 M509 648 v8"/>
+      <rect x="503" y="642" width="14" height="14" rx="2" transform="translate(0 4)"/>
+    </g>
+    <text x="544" y="648" font-size="14" font-weight="700" fill="#fafafa">Templates Prontos</text>
+    <text x="544" y="668" font-size="12" fill="#a1a1aa">Dashboards, autenticação e tabelas de dados configuradas</text>
+    <rect x="993" y="642" width="66" height="20" rx="3" fill="#2a2a30"/>
+    <text x="1026" y="656" font-size="11" font-family="'JetBrains Mono', Consolas, monospace" fill="#a1a1aa" text-anchor="middle">Templates</text>
+  </g>
+
+  <!-- Abrir pasta -->
+  <path d="M487 853 h6 l2 2 h7 v10 h-15 z" fill="#f2b632"/>
+  <path d="M487 858 h15 v7 h-15 z" fill="#e5a21c"/>
+  <text x="507" y="862" font-size="14" fill="#e4e4e7">Abrir pasta de projecto existente...</text>
+
+  <!-- Ecossistema: Frontend -->
+  <rect x="1104.500" y="472.500" width="590" height="91" rx="3" fill="#1d1d22" stroke="#2b2b31"/>
+  <text x="1117" y="497" font-size="11" font-weight="600" fill="#fafafa">Frontend &amp; Multiplataforma</text>
+  <text x="1682" y="496" font-size="9" font-family="'JetBrains Mono', Consolas, monospace" fill="#8a8a93" text-anchor="end">Web • App • Mobile</text>
+  <g fill="#f4f4f5">
+    <circle cx="1138" cy="529" r="21"/>
+    <circle cx="1192" cy="529" r="21"/>
+    <circle cx="1246" cy="529" r="21"/>
+    <circle cx="1300" cy="529" r="21"/>
+    <circle cx="1354" cy="529" r="21"/>
+  </g>
+  <!-- marcadores genéricos (substitua pelos logótipos das tecnologias) -->
+  <g font-size="15" font-weight="700" text-anchor="middle">
+    <text x="1138" y="535" fill="#e8472b">S</text>
+    <text x="1192" y="535" fill="#2a9fd0">R</text>
+    <text x="1246" y="535" fill="#2fa86b">V</text>
+    <text x="1300" y="535" fill="#2a8fd0">F</text>
+    <text x="1354" y="535" fill="#14b8c4">T</text>
+  </g>
+
+  <!-- Ecossistema: Backend -->
+  <rect x="1104.500" y="574.500" width="590" height="92" rx="3" fill="#1d1d22" stroke="#2b2b31"/>
+  <text x="1117" y="599" font-size="11" font-weight="600" fill="#fafafa">Backend (OpenAPI • Swagger • Scalar)</text>
+  <text x="1682" y="598" font-size="9" font-family="'JetBrains Mono', Consolas, monospace" fill="#8a8a93" text-anchor="end">DTOs &amp; Endpoints</text>
+  <g fill="#f4f4f5">
+    <circle cx="1138" cy="633" r="21"/>
+    <circle cx="1192" cy="633" r="21"/>
+    <circle cx="1246" cy="633" r="21"/>
+  </g>
+  <g font-size="15" font-weight="700" text-anchor="middle">
+    <text x="1138" y="639" fill="#5fae3c">S</text>
+    <text x="1192" y="639" fill="#e0234e">N</text>
+  </g>
+  <text x="1246" y="638" font-size="12" font-weight="600" fill="#512bd4" text-anchor="middle">.NET</text>
+
+  <!-- Modo Studio Nativo -->
+  <rect x="1104.500" y="787.500" width="590" height="83" rx="3" fill="#1d1d22" stroke="#2b2b31"/>
+  <circle cx="1121" cy="808" r="3.500" fill="#1f6bff"/>
+  <text x="1131" y="813" font-size="12" font-weight="700" fill="#fafafa">Modo Studio Desktop Nativo</text>
+  <text x="1117" y="835" font-size="11" fill="#a1a1aa">Gera componentes 100% nativos em Tailwind CSS. Mantém a consistência de UI/UX em Svelte, React, Vue, Flutter</text>
+  <text x="1117" y="853" font-size="11" fill="#a1a1aa">e Tauri.</text>
+
+  <!-- Rodapé do cartão -->
+  <g clip-path="url(#cardClip)">
+    <rect x="449" y="903" width="1278" height="37" fill="#18181c"/>
+    <rect x="449" y="903" width="1278" height="1" fill="#2b2b31"/>
+  </g>
+  <rect x="469" y="914" width="16" height="16" rx="3" fill="#1f6bff"/>
+  <path d="M473 922 l3 3 l6 -6" stroke="#fff" stroke-width="1.800" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="493" y="927" font-size="12" fill="#8a8a93">Mostrar tela ao iniciar o NegoDesign</text>
+
+  <text x="1406" y="927" font-size="12" fill="#8a8a93">Documentação</text>
+  <text x="1501" y="927" font-size="12" fill="#52525b">•</text>
+  <text x="1518" y="927" font-size="12" fill="#8a8a93">Ajuda</text>
+  <text x="1578" y="927" font-size="12" fill="#8a8a93">GitHub</text>
+  <text x="1631" y="926" font-size="12" fill="#52525b">•</text>
+  <text x="1646" y="925" font-size="10" font-weight="600" font-family="'JetBrains Mono', Consolas, monospace" fill="#d4d4d8">MIT License</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTplMzI0YTA3NS00MTliLTQzN2ItYTYxOC00ZDQ2NTg4MzFlMmYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaGUgYlLn7jDWFVzb/MtPolQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpmNzc4MGE2YS0xZDg0LTQ1MTMtOTU5OS0zNjllZmExZjRhYmJscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNox2+BdoDFhAE4vLO0VIX8xgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggKOx6y0qALuUmyPpuY5U99X34h2tDGCVC0t9K147YlKOkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaHDD29//ZQBdTm94bOrz96sAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYID1jhbyUk/Pj8lvN6JG7K1bi+0qfVq+11fjVDsrd1DWbZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GUA2Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmUzMjRhMDc1LTQxOWItNDM3Yi1hNjE4LTRkNDY1ODgzMWUyZi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmEyMDlhZGJhLTM3NWQtNGY4Ny05YmQxLTU3Yzc3MTQ3ODg5N3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAo7HrLSoAu5SbI+m5jlT31ffiHa0MYJULS30rXjtiUo6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggmkPo4TbAjHlb3r7/tF7tLu1OA7Cl8JS15hF7DghEgV+iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggzXRqIY1Hvqhc6pHjbIt7uQhZeruP66edNBTMmdawrs50Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQBjj2YjS7JPFOjvzIH9ejxAeb3mJ5Hb14HmBhilhkj/BbtWfhUbikSkd8yqem49YnoN7O7CrGFhJDVvRdXUJh4Q=</c2pa:manifest></metadata></svg>
