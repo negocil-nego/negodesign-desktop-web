@@ -88,17 +88,13 @@
   <!-- Janela do DesktopStudioSimulator em destaque -->
   <div
     id="studio-simulator"
-    class="relative z-10 mt-8 sm:mt-10 w-full flex-1 flex flex-col min-h-0"
+    class="relative z-10 mt-8 sm:mt-10 w-full flex-1 flex flex-col items-center min-h-0"
   >
-    <div
-      class="relative w-full flex-1 flex flex-col min-h-0 rounded-t-xl border border-b-0 border-white/15 bg-[#131316] shadow-[0_-8px_70px_rgba(76,106,245,0.22),0_28px_80px_rgba(0,0,0,0.85)] overflow-hidden"
-    >
-      <DesktopStudioSimulator
-        status={simulatorStatus}
-        bind:showOnStart
-        onSelect={handleSimulatorSelect}
-        onToggleStartup={handleToggleStartup}
-      />
-    </div>
+    <DesktopStudioSimulator
+      status={simulatorStatus}
+      bind:showOnStart
+      onSelect={handleSimulatorSelect}
+      onToggleStartup={handleToggleStartup}
+    />
   </div>
 </section>

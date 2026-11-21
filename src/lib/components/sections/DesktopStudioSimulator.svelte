@@ -152,7 +152,7 @@
 </script>
 
 <div
-  class="flex flex-1 h-full w-full flex-col overflow-hidden bg-[#131316] text-zinc-200 antialiased"
+  class="flex flex-1 h-full w-full md:w-11/12 lg:w-[calc(75%+70px)] xl:w-[calc(66.6667%+80px)] max-w-310 mx-auto flex-col overflow-hidden rounded-t-xl border border-b-0 border-white/15 bg-[#131316] shadow-[0_-8px_70px_rgba(76,106,245,0.22),0_28px_80px_rgba(0,0,0,0.85)] text-zinc-200 antialiased"
 >
   {#if showTitleBar}
     <!-- Barra de título -->
@@ -347,7 +347,7 @@
 
       <!-- Cartão -->
       <section
-        class="relative w-full flex-1 flex flex-col overflow-hidden rounded-sm border border-[#2b2b31] bg-[#1a1a1f] shadow-2xl shadow-black/40"
+        class="relative w-full max-w-319.5 flex flex-col overflow-hidden rounded-sm border border-[#2b2b31] bg-[#1a1a1f] shadow-2xl shadow-black/40"
       >
         <!-- Hero -->
         <div
@@ -404,7 +404,9 @@
             class="absolute inset-0 bg-linear-to-b from-transparent via-transparent to-[#1a1a1f]/95"
           ></div>
 
-          <div class="relative flex h-full flex-col justify-between p-5 md:p-6 lg:p-8">
+          <div
+            class="relative flex h-full flex-col justify-between p-5 md:p-6 lg:p-8"
+          >
             <div class="flex items-center gap-2.5">
               <span
                 class="inline-flex items-center gap-2 rounded-xs bg-[#1f6bff] px-2.5 py-1.25 text-[11px] font-bold tracking-wide text-white"
@@ -422,7 +424,8 @@
                   class="text-2xl sm:text-3xl lg:text-[38px] font-extrabold tracking-tighter text-white"
                   >NegoDesign</span
                 >
-                <span class="mt-0.5 text-lg sm:text-xl lg:text-[25px] font-light text-zinc-300"
+                <span
+                  class="mt-0.5 text-lg sm:text-xl lg:text-[25px] font-light text-zinc-300"
                   >Desktop</span
                 >
               </h1>
@@ -437,7 +440,9 @@
         <div class="h-px bg-[#2b2b31]"></div>
 
         <!-- Conteúdo -->
-        <div class="grid flex-1 gap-5 lg:gap-8 px-5 md:px-6 lg:px-8 pb-6 pt-5 lg:pt-7 md:grid-cols-2">
+        <div
+          class="grid flex-1 gap-5 lg:gap-8 px-5 md:px-6 lg:px-8 pb-6 pt-5 lg:pt-7 md:grid-cols-2"
+        >
           <!-- Início rápido -->
           <div class="flex flex-col">
             <div
