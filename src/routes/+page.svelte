@@ -1,31 +1,27 @@
 <script lang="ts">
   import {
-    Header,
+    Loader,
+    Background,
+    Navbar,
     HeroSection,
     DesktopStudioSimulator,
-    CorePillarsSection,
-    FinalCtaBanner,
     Footer,
   } from "#lib";
+
+  let loaded = $state(false);
 </script>
 
 <svelte:head>
-  <title
-    >NegoDesign Desktop - O Ecossistema UI Multiplataforma e Conversão OpenAPI</title
-  >
+  <title>NegoDesign</title>
 </svelte:head>
 
-<Header />
+<Loader onComplete={() => (loaded = true)} />
 
-<main class="w-full pt-16 bg-surface min-h-[calc(100vh-16rem)]">
-  <div class="flex flex-col w-full md:max-w-4/5 mx-auto">
-    <div class="relative w-full overflow-hidden">
-      <HeroSection />
-      <DesktopStudioSimulator />
-      <CorePillarsSection />
-      <FinalCtaBanner />
-    </div>
-  </div>
-</main>
-
-<Footer />
+<div class={!loaded ? "h-screen overflow-hidden" : ""} inert={!loaded}>
+  <Navbar />
+  <Background>
+    <HeroSection />
+  </Background>
+  <DesktopStudioSimulator />
+  <Footer />
+</div>

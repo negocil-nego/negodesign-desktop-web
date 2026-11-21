@@ -8,9 +8,12 @@ export default defineConfig({
 		tailwindcss(),
 		sveltekit({
 			compilerOptions: {
-				// Force runes mode for the project, except for libraries. Can be removed in svelte 6.
+				// Force runes mode for the project, except for libraries and legacy Loader component. Can be removed in svelte 6.
 				runes: ({ filename }) =>
-					filename.split(/[/\\]/).includes('node_modules') ? undefined : true
+					filename.split(/[/\\]/).includes('node_modules') ||
+					filename.endsWith('Loader.svelte')
+						? undefined
+						: true
 			},
 
 			// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.

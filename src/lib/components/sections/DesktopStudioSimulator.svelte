@@ -1,5 +1,5 @@
 <section
-  class="px-margin md:px-margin-desktop mb-space-3xl"
+  class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop py-space-3xl"
   id="desktop-preview-section"
 >
   <div
